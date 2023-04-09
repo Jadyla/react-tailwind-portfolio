@@ -13,9 +13,9 @@ function Skills() {
     <>
       <div id="skills" style={{backgroundImage: `url(${bg})`}} className="wrapper h-full bg-no-repeat bg-center bg-cover p-16 lg:p-4">
         <div className="skills-wrapper text-center text-white bg-[#171717]  p-10 rounded-[50px] lg:p-2">
-          <h1 className="text-4xl ">Skills</h1>
+          <h1 className="text-4xl ">Com o que trabalhamos...</h1>
           <p className="text-lg py-3">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Ao longo dos anos fomos desenvolvendo deferentes projetos e assim podemos apresentar soluções para diferentes áreas
           </p>
           <div className="box flex  justify-between  items-center bg-[#171717] my-6">
             <Swiper

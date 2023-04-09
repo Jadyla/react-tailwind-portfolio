@@ -26,7 +26,7 @@ function Navbar() {
   return (
     <>
       <div className="navbarcon flex justify-between items-center px-20 py-6 bg-transparent z-40 text-white lg:px-6 fixed w-full">
-        <h1 className="text-4xl  font-bold ">Reayhs</h1>
+        <h1 className="text-4xl  font-bold ">Pablo & Jadyla</h1>
 
         <nav
           className={` flex justify-center items-center gap-x-10 ${
@@ -35,19 +35,19 @@ function Navbar() {
         >
           <ul className=" flex gap-10 text-3xl mr-4 lg:flex-col lg:gap-6 ">
             <li className="bla">
-              <AnchorLink href="#home">Home</AnchorLink>
+              <AnchorLink href="#home">Início</AnchorLink>
             </li>
             <li className="bla">
-              <AnchorLink href="#skills">Skills</AnchorLink>
+              <AnchorLink href="#skills">O que fazemos</AnchorLink>
             </li>
             <li className="bla">
-              <AnchorLink href="#projects">Projects</AnchorLink>
+              <AnchorLink href="#projects">Projetos</AnchorLink>
             </li>
           </ul>
 
           <div className="icon text-lg flex gap-4  lg:gap-8 lg:my-10">
             <a href="https://twitter.com/reayhs" target="_blank">
-              <i className="fa-brands fa-twitter border-[1px] border-white p-2 rounded-[100%] hover:bg-white hover:text-black"></i>
+                <i className="fa-brands fa-linkedin border-[1px] border-white p-2 rounded-[100%] hover:bg-white hover:text-black"></i>
             </a>
 
             <a href="https://www.instagram.com/iburakz/" target="_blank">
