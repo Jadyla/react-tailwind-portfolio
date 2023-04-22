@@ -32,21 +32,35 @@ function Skills() {
                 {" "}
                 <div className=" bg-[#171717]">
                   <img src={img} alt="" />
-                  <h1 className="font-bold text-2xl my-2">Web Dev</h1>
+                  <h1 className="font-bold text-2xl my-2">Sites institucionais</h1>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className="bg-[#171717]">
+                {" "}
+                <div className=" bg-[#171717]">
+                  <img src={img} alt="" />
+                  <h1 className="font-bold text-2xl my-2">E-commerces</h1>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className="bg-[#171717]">
+                {" "}
+                <div className=" bg-[#171717]">
+                  <img src={img} alt="" />
+                  <h1 className="font-bold text-2xl my-2">Aplicativos</h1>
                 </div>
               </SwiperSlide>
               <SwiperSlide className=" bg-[#171717]">
                 {" "}
                 <div className=" bg-[#171717]">
                   <img src={img} alt="" />
-                  <h1 className="font-bold text-2xl my-2">Frontend </h1>
+                  <h1 className="font-bold text-2xl my-2">Landing Pages</h1>
                 </div>
               </SwiperSlide>
               <SwiperSlide className=" bg-[#171717]">
                 {" "}
                 <div className=" bg-[#171717]">
                   <img src={img} alt="" />
-                  <h1 className="font-bold text-2xl my-2">React.js</h1>
+                  <h1 className="font-bold text-2xl my-2">Design Gráfico</h1>
                 </div>
               </SwiperSlide>
 
@@ -54,14 +68,14 @@ function Skills() {
                 {" "}
                 <div className=" bg-[#171717]">
                   <img src={img} alt="" />
-                  <h1 className="font-bold text-2xl my-2">Javascript</h1>
+                  <h1 className="font-bold text-2xl my-2">Sistemas</h1>
                 </div>
               </SwiperSlide>
               <SwiperSlide className=" bg-[#171717]">
                 {" "}
                 <div className=" bg-[#171717]">
                   <img src={img} alt="" />
-                  <h1 className="font-bold text-2xl my-2">Tailwind</h1>
+                  <h1 className="font-bold text-2xl my-2">Softwares</h1>
                 </div>
               </SwiperSlide>
             </Swiper>
