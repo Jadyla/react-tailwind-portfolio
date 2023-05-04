@@ -13,13 +13,13 @@ function Skills() {
     <>
       <div id="skills" style={{backgroundImage: `url(${bg})`}} className="wrapper h-full bg-no-repeat bg-center bg-cover p-16 lg:p-4">
         <div className="skills-wrapper text-center text-white bg-[#171717]  p-10 rounded-[50px] lg:p-2">
-          <h1 className="text-4xl ">Com o que trabalhamos...</h1>
-          <p className="text-lg py-3">
+          <h1 className="text-3xl ">Com o que trabalhamos</h1>
+          <p className="text-1xl py-2">
             Ao longo dos anos fomos desenvolvendo deferentes projetos e assim podemos apresentar soluções para diferentes áreas
           </p>
           <div className="box flex  justify-between  items-center bg-[#171717] my-6">
             <Swiper
-              slidesPerView={3}
+              slidesPerView={4}
               spaceBetween={40}
               pagination={{
                 clickable: true,

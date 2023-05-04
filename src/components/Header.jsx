@@ -14,14 +14,15 @@ function Header() {
         <div className="wrapper flex justify-between items-center h-screen w-full px-20 lg:justify-center lg:px-6">
           <div className="content lg:text-center">
             <div className="btn py-3">
-              <button className=' border-2 border-[#b0aaaa] font-bold text-white bg-[linear-gradient(90deg,#b004b0,#38097a)] p-4 rounded-2xl'>
-                Bem vindo ao nosso Portfolio</button>
             </div>
-            <h1 className='text-white text-5xl font-bold'>Olá! Somos Desenvolvedores</h1>
-            <p className='text-white py-4 max-w-lg '>Temos 7 anos de experiência nesta área e vários projetos que incluem desde sites simples até aplicativos mais complexos</p>
+            <h1 className='text-white text-3xl font-bold'>Olá, bem-vindo(a) ao nosso portifólio!</h1>
+            <p className='text-white py-3 max-w-lg '>Temos 7 anos de experiência e vários projetos que incluem desde sites simples até aplicativos mais complexos. Quer saber mais?</p>
             <AnchorLink href="#skills">
-              <button className='text-white text-2xl'>Veja a baico um pouco mais sobre a gente <i className="fa-solid fa-arrow-down text-lg  p-[2px] "></i> </button>
+              <button className='text-white text-1xl border-[1px] border-white border-solid' style={{ borderRadius: '5px', padding: '10px 15px', marginTop: '15px' }}>Sobre nós</button>
             </AnchorLink>
+            <AnchorLink href="#contact">
+              <button className='text-white text-1xl border-[1px] border-white border-solid' style={{ borderRadius: '5px', padding: '10px 15px', marginTop: '15px', marginLeft: '10px' }}>Quero um site/aplicativo</button>
+            </AnchorLink>            
           </div>
           <div className="image banner-astronout lg:hidden absolute w-[300px] flex ">
             <img className='w-96 ast-img' src={logo1} alt="" />
